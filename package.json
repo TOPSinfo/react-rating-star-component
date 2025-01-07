@@ -1,6 +1,6 @@
 {
   "name": "test-1x",
-  "version": "1.0.4",
+  "version": "1.0.0",
   "description": "A simple star rating component",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
