@@ -1,0 +1,40 @@
+{
+  "name": "react-simple-star-rating-component",
+  "version": "1.0.1",
+  "description": "A simple star rating component",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "npm run build:ts && rollup -c",
+    "build:ts": "tsc --project tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "star",
+    "rating",
+    "component"
+  ],
+  "author": "tops_praful",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "@types/react": "^18.0.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-dts": "^4.2.2",
+    "typescript": "^4.7.4"
+  }
+}
