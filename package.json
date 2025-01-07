@@ -1,5 +1,5 @@
 {
-  "name": "test-1x",
+  "name": "react-rating-star-component",
   "version": "1.0.0",
   "description": "A simple star rating component",
   "main": "dist/index.js",
