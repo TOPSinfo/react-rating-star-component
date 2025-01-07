@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
 
 export interface StarRatingProps {
-  totalStars?: number; // Total number of stars to display
-  initialRating?: number; // Initial selected rating
-  onChange?: (rating: number) => void; // Callback when the rating changes
-  activeColor?: string; // Color for selected stars
-  inactiveColor?: string; // Color for unselected stars
-  size?: string | number; // Font size for the stars
-  gap?: string | number; // Gap between the stars
-  className?: string; // Custom class name for the container
-  tooltipTexts?: string[]; // Tooltip text for each star
-  ariaLabel?: string; // ARIA label for accessibility
+  totalStars?: number; // Total number of stars
+  initialRating?: number; // Initial rating
+  onChange?: (rating: number) => void; // Callback function when rating changes
+  activeColor?: string;   // Active color of the stars
+  inactiveColor?: string; // Inactive color of the stars
+  size?: string | number; // Size of the stars
+  gap?: string | number;  // Gap between the stars
+  className?: string;    // Additional class name
+  tooltipTexts?: string[];  // Tooltip texts for each star
+  ariaLabel?: string;   // Aria label for the star rating
 }
 
-export const StarRating: React.FC<StarRatingProps> = ({
+export function StarRating({
   totalStars = 5,
   initialRating = 0,
   onChange,
@@ -24,7 +24,7 @@ export const StarRating: React.FC<StarRatingProps> = ({
   className = '',
   tooltipTexts = [],
   ariaLabel = 'Star rating',
-}) => {
+}: StarRatingProps) {
   const [rating, setRating] = useState(initialRating);
   const [hover, setHover] = useState(0);
 
@@ -67,4 +67,5 @@ export const StarRating: React.FC<StarRatingProps> = ({
       })}
     </div>
   );
-};
+}
+

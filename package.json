@@ -1,6 +1,6 @@
 {
-  "name": "react-simple-star-rating-component",
-  "version": "1.0.1",
+  "name": "test-1x",
+  "version": "1.0.4",
   "description": "A simple star rating component",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -22,8 +22,16 @@
   "author": "tops_praful",
   "license": "MIT",
   "peerDependencies": {
-    "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || ^18.0.0"
+    "react": ">=17.0.0 || ^18.0.0",
+    "react-dom": ">=17.0.0 || ^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
   },
   "dependencies": {
     "tslib": "^2.4.0"
