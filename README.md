@@ -107,6 +107,11 @@ You can style the component further using the `className` prop or modify the inl
 }
 ```
 
+## Contributing
+
+We welcome contributions! If you find bugs or have feature requests, please open an issue or submit a pull request on the [GitHub repository](https://github.com/TOPSinfo/react-rating-star-component.git).
+
+
 ## License
 
 This component is open-source and can be freely used and modified.

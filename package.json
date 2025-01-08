@@ -5,6 +5,11 @@
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "homepage": "https://github.com/TOPSinfo/react-rating-star-component.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TOPSinfo/react-rating-star-component.git"
+  },
   "files": [
     "dist"
   ],
