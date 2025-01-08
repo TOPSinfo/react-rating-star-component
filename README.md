@@ -14,7 +14,7 @@ Here is an example of how to use the `StarRating` component in your project.
 
 ```tsx
 import React from 'react';
-import { StarRating } from './StarRating';
+import { StarRating } from "react-rating-star-component";
 
 const App: React.FC = () => {
   const handleRatingChange = (rating: number) => {
@@ -36,7 +36,7 @@ export default App;
 
 ```tsx
 import React from 'react';
-import { StarRating } from './StarRating';
+import { StarRating } from "react-rating-star-component";
 
 const App: React.FC = () => {
   const handleRatingChange = (rating: number) => {
